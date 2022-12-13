@@ -17,6 +17,15 @@ class _extrasState extends State<extras> {
       appBar: AppBar(
         foregroundColor: Colors.black,
         backgroundColor: Color.fromARGB(255, 170, 193, 232),
+        elevation: 0,
+        centerTitle: true,
+        title: Text(
+          "Extras",
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            letterSpacing: 1,
+          ),
+        ),
     ),
     );
   }

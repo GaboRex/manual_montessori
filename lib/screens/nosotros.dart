@@ -17,6 +17,15 @@ class _nosotrosState extends State<nosotros> {
       appBar: AppBar(
         foregroundColor: Colors.black,
         backgroundColor: Color.fromARGB(255, 170, 193, 232),
+        elevation: 0,
+        centerTitle: true,
+        title: Text(
+          "Sobre nosotros",
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            letterSpacing: 1,
+          ),
+        ),
     ),
     );
   }

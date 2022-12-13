@@ -60,7 +60,7 @@ class _infanciaState extends State<infancia> {
             ),
             SizedBox(height: 15),
             Text(
-              "Caracteritsicas, Agu dada:" ,
+              "Caracteristicas del plano Agu dada:" ,
               style: TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.w600,
@@ -144,7 +144,6 @@ class _infanciaState extends State<infancia> {
             ),
             SizedBox(height: 10),
             isVideoSection ? VideoSection() : ChecklistSection(),
-
           ],
         ),
       ),

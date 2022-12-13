@@ -40,9 +40,9 @@ class homeScreen extends StatelessWidget {
   List imgList2 = [
     'Infancia',
     'Niñez ',
-    'Primaria ',
-    'Secundaria',
-    'Educacion ',
+    'Escolar ',
+    'Juventud',
+    'Nosotros ',
     'Extras',
   ];
 

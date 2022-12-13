@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
 
-class ChecklistSection extends StatefulWidget {
+class ChecklistSection2 extends StatefulWidget {
 
   @override
-  State<ChecklistSection> createState() {
+  State<ChecklistSection2> createState() {
     return ChecklistSectionState();
   }
 }
-class ChecklistSectionState extends State<ChecklistSection> {
+class ChecklistSectionState extends State<ChecklistSection2> {
   bool? _isChecked = false;
   bool? _isChecked2 = false;
   bool? _isChecked3 = false;
@@ -19,7 +19,7 @@ class ChecklistSectionState extends State<ChecklistSection> {
       mainAxisAlignment : MainAxisAlignment.center,
       children: [
         CheckboxListTile(
-          title: const Text("Desarrollo del movimiento grueso y fino",
+          title: const Text("Comienza el deseo de tener amiguitos o pares con quienes jugar",
             style: TextStyle(
               color: Colors.white,
               fontStyle: FontStyle.italic,
@@ -34,12 +34,12 @@ class ChecklistSectionState extends State<ChecklistSection> {
           activeColor: Color.fromARGB(255, 0, 0, 32),
           checkColor: Colors.white,
           tileColor: Color.fromARGB(255, 0, 0, 32).withOpacity(0.5),
-          subtitle: const Text("0-6 años"),
+          subtitle: const Text("6-12 años"),
           controlAffinity: ListTileControlAffinity.leading,
           tristate: true,
         ),
         CheckboxListTile(
-          title: const Text("Desarrollo del lenguaje",
+          title: const Text("Despierta el sentido moral",
               style: TextStyle(
             color: Colors.white,
                 fontStyle: FontStyle.italic,
@@ -54,12 +54,12 @@ class ChecklistSectionState extends State<ChecklistSection> {
           activeColor: Color.fromARGB(255, 0, 0, 32),
           checkColor: Colors.white,
           tileColor: Color.fromARGB(255, 0, 0, 32).withOpacity(0.5),
-          subtitle: const Text("0-6 años"),
+          subtitle: const Text("6-12 años"),
           controlAffinity: ListTileControlAffinity.leading,
           tristate: true,
         ),
         CheckboxListTile(
-          title: const Text("Importancia de las experiencias sensoriales que favorecen la inteligencia",
+          title: const Text("Aparece el deseo de ampliar tanto el entorno familiar como el escolar",
             style: TextStyle(
               color: Colors.white,
               fontStyle: FontStyle.italic,
@@ -74,7 +74,7 @@ class ChecklistSectionState extends State<ChecklistSection> {
           activeColor: Color.fromARGB(255, 0, 0, 32),
           checkColor: Colors.white,
           tileColor: Color.fromARGB(255, 0, 0, 32).withOpacity(0.5),
-          subtitle: const Text("0-6 años"),
+          subtitle: const Text("6-12 años"),
           controlAffinity: ListTileControlAffinity.leading,
           tristate: true,
         ),
