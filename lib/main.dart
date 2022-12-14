@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:manual_montessori_beta/screens/menu_dashboard.dart';
 import 'package:manual_montessori_beta/screens/splash_screen.dart';
 
 void main() {

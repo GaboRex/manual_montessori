@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/widgets.dart';
 import 'package:manual_montessori_beta/screens/home_screen.dart';
-import 'package:manual_montessori_beta/screens/menu_dashboard.dart';
 import 'package:page_transition/page_transition.dart';
 
 class SplashScreen extends StatefulWidget{
